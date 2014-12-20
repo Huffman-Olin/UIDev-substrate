@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 12, 2014, 5:29:54 PM
+    Author     : Olin
+*/
+img{
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+}
+
+#header{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #78201E;
+    opacity: .75; 
+    border-top-left-radius: 30px;  
+    border-bottom-right-radius: 30px;
+    height: 100px;
+
+}
+#footer{
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #78201E;
+    opacity: .75; 
+    border-bottom-left-radius: 45px; 
+    border-bottom-right-radius: 45px;
+}
+
+
+
+
+body{
+    background-color: #EAD7B7;
+}
+#imgTable{
+    margin-left: 9%;
+}
+h1, p{
+    color: #EAD7B7;
+}
+h1{
+    /*Looked up on YouTube how to embed Google fonts*/
+    font-family: 'Rock Salt', cursive;
+}
