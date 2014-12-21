@@ -16,7 +16,7 @@ img{
 #header{
     text-align: center;
     vertical-align: middle;
-    background-color: #78201E;
+    background-color: #609dcb;
     opacity: .75; 
     border-top-left-radius: 30px;  
     border-bottom-right-radius: 30px;
@@ -27,20 +27,20 @@ img{
     height: 40px;
     text-align: center;
     vertical-align: middle;
-    background-color: #78201E;
+    background-color: #609dcb;
     opacity: .75; 
     border-bottom-left-radius: 45px; 
     border-bottom-right-radius: 45px;
 }
 
 body{
-    background-color: #EAD7B7;
+    background-color: #f8bc81;
 }
 #imgTable{
     margin-left: 9%;
 }
 h1, p{
-    color: #EAD7B7;
+    color: #f8bc81;
 }
 h1{
     /*Looked up on YouTube how to embed Google fonts, link to tylesheet 
@@ -48,6 +48,6 @@ h1{
     font-family: 'Rock Salt', cursive;
 }
 img:hover{
-    border: solid thin #78201E;
+    border: solid thin #609dcb;
     border-radius: 10px;
 }
