@@ -48,5 +48,8 @@ h1, p{
 h1{
     /*Looked up on YouTube how to embed Google fonts*/
     font-family: 'Rock Salt', cursive;
-   
+}
+img:hover{
+    border: solid thin #78201E;
+    border-radius: 10px;
 }
