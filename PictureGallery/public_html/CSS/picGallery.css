@@ -33,9 +33,6 @@ img{
     border-bottom-right-radius: 45px;
 }
 
-
-
-
 body{
     background-color: #EAD7B7;
 }
@@ -46,7 +43,8 @@ h1, p{
     color: #EAD7B7;
 }
 h1{
-    /*Looked up on YouTube how to embed Google fonts*/
+    /*Looked up on YouTube how to embed Google fonts, link to tylesheet 
+    is in head*/
     font-family: 'Rock Salt', cursive;
 }
 img:hover{
