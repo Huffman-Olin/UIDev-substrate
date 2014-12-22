@@ -1,17 +1,6 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Dec 12, 2014, 5:29:54 PM
-    Author     : Olin
-*/
-img{
-    width: 150px;
-    height: 200px;
-    padding: 5px;
-}
+
+/*    Created on : Dec 12, 2014, 5:29:54 PM
+    Author: Olin*/
 
 #header{
     text-align: center;
@@ -20,8 +9,7 @@ img{
     opacity: .55; 
     border-top-left-radius: 30px;  
     border-bottom-right-radius: 30px;
-    height: 100px;
-
+   
 }
 #footer{
     height: 40px;
@@ -51,4 +39,70 @@ h1{
 img:hover{
     border: solid thin #93060F;
     border-radius: 10px;
+
+}
+/*
+Screen sizes:
+1) 320px
+2) 728px
+3) 1200px
+*/
+
+//Went to internet to research how to make responsive sites
+//Had to lookup how to code in min and max width in single line
+@media(min-width: 0px) and (max-width: 320px){
+    #header, #footer{
+        width: 300px;
+    }
+    #imgTable{
+        width: 300px;
+    }
+    h1{
+        font-size: 1em;
+         height: 100px;
+    }
+    img{
+    width: 70px;
+    height: 80px;
+    padding: 5px;
+}
+
+}
+@media(min-width: 321px) and (max-width: 728px){
+        #header, #footer{
+        width: 700px;
+    }
+    #imgTable{
+        width: 700px;
+    }
+    h1{
+        font-size: 2em;
+         height: 100px;
+    }
+    img{
+    width: 150px;
+    height: 175px;
+    padding: 5px;
+}
+}
+@media(min-width: 729px) and (max-width: 1200px){
+            #header, #footer{
+        width: 800px;
+    }
+    #imgTable{
+        width: 750px;
+    }
+    h1{
+        font-size: 3em;
+         height: 100px;
+    }
+    img{
+    width: 150px;
+    height: 175px;
+    padding: 5px;
+    
+}
+
+//Change header, footer, imgTable, and img size
+
 }
