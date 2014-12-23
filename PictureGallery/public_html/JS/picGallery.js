@@ -9,7 +9,7 @@ $.each( data, function( key, val ) {
 items.push( "<a href='" + key + "'>");
 });
 $( "<ul/>", {
-"class": "my-new-list",
+"class": "pictures",
 html: items.join( "" )
 }).appendTo( "body" );
 });
