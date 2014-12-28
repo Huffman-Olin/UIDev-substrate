@@ -9,7 +9,7 @@
     opacity: .55; 
     border-top-left-radius: 30px;  
     border-bottom-right-radius: 30px;
-   
+    width: 100%;
 }
 #footer{
     height: 40px;
@@ -19,90 +19,31 @@
     opacity: .55; 
     border-bottom-left-radius: 45px; 
     border-bottom-right-radius: 45px;
+    width: 100%;
 }
-
 body{
     background-color: #D1B48C;
 }
-#imgTable{
-    margin-left: 9%;
-}
+
 h1, p{
     color:  #D1B48C;
 }
 h1{
-    /*Looked up on YouTube how to embed Google fonts, link to tylesheet 
-    is in head*/
+    /*Looked up on YouTube how to embed Google fonts an link to stylesheet 
+     in head*/
     font-family: 'Rock Salt', cursive;
     font-size: 3em;
+    position: relative;
+    top: 25px;
+    height: 100px;
+}
+.row{
+    margin-left: -5%;
 }
 img:hover{
     border: solid thin #93060F;
     border-radius: 10px;
-
 }
-/*
-Screen sizes:
-1) 320px
-2) 728px
-3) 1200px
-*/
-
-//Went to internet to research how to make responsive sites
-//Had to lookup how to code in min and max width in single line
-@media(min-width: 0px) and (max-width: 320px){
-    #header, #footer{
-        width: 300px;
-    }
-    #imgTable{
-        width: 300px;
-    }
-    h1{
-        font-size: 1em;
-         height: 100px;
-    }
-    img{
-    width: 70px;
-    height: 80px;
-    padding: 5px;
-}
-
-}
-@media(min-width: 321px) and (max-width: 728px){
-        #header, #footer{
-        width: 700px;
-    }
-    #imgTable{
-        width: 700px;
-    }
-    h1{
-        font-size: 2em;
-         height: 100px;
-    }
-    img{
-    width: 150px;
-    height: 175px;
-    padding: 5px;
-}
-}
-@media(min-width: 729px) and (max-width: 1200px){
-            #header, #footer{
-        width: 800px;
-    }
-    #imgTable{
-        width: 750px;
-    }
-    h1{
-        font-size: 3em;
-         height: 100px;
-    }
-    img{
-    width: 150px;
-    height: 175px;
-    padding: 5px;
-    
-}
-
-//Change header, footer, imgTable, and img size
-
+img{
+ padding: 5px;  
 }

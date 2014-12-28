@@ -1,3 +1,5 @@
+<!--No prior bootstrap experience, implemented the bootstrap in this webpage through
+the help of tutorials on W3Schools-->
 <!DOCTYPE html>
 
 <html>
@@ -5,44 +7,50 @@
         <title>Picture Gallery | Olin Huffman</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="CSS/picGallery.css">
         <!-- Link to Google font-->
         <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="picGallery.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-        
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div id="header">
-            <h1>Picture Gallery</h1>
+        <div class="container">
+            <div id="header">
+                <h1>Picture Gallery</h1>
+            </div>
         </div>
-        <div id="imgTable">
+        <div class="container">
 
-            <!--Get data from JSON file using JQUERY and AJAX. See YouTube-->
-            <table>
-                <tr>
-                    <!--You can click on all images to see at original size-->
-
-                    <td><a href="img/African_elephant.jpeg" target="_blank"><img src="img/African_elephant.jpeg" alt="African elephaant"></a></td>
-                    <td><a href="img/Northern_Baikal_Russia.jpeg" target="_blank"><img src="img/Northern_Baikal_Russia.jpeg" alt="Russia"></a></td>
-                    <td><a href="img/bird.jpeg" target="_blank"><img src="img/bird.jpeg" alt="Bird"></a></td>
-                    <td><a href="img/chimps.jpeg" target="_blank"><img src="img/chimps.jpeg" alt="Chimpanzee"></a></td>
-                </tr>
-                <tr>
-                    <td><a href="img/fox.jpeg" target="_blank"><img src="img/fox.jpeg" alt="Fox"></a></td>
-                    <td><a href="img/otter.jpeg" target="_blank"><img src="img/otter.jpeg" alt="Otter"></a></td>
-                    <td><a href="img/snail.jpeg" target="_blank"><img src="img/snail.jpeg" alt="Snail"></a></td>
-                    <td><a href="img/taranchula.jpeg" target="_blank"><img src="img/taranchula.jpeg" alt="Taranchula"></a></td>
-                </tr>
-            </table>       
+            <!--You can click on all images to see at original size-->
+            <div class="container container-sm-height">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="img/African_elephant.jpeg" target="_blank"><img src="img/African_elephant.jpeg" class="img-responsive" alt="Elephant"></a>
+                        <a href="img/Northern_Baikal_Russia.jpeg" target="_blank"><img src="img/Northern_Baikal_Russia.jpeg" class="img-responsive" alt="Russian Landscape"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="img/bird.jpeg" target="_blank"><img src="img/bird.jpeg" class="img-responsive" alt="Bird"></a>
+                        <a href="img/chimps.jpeg" target="_blank"><img src="img/chimps.jpeg" class="img-responsive" alt="Chimpanzee"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="img/fox.jpeg" target="_blank"><img src="img/fox.jpeg" class="img-responsive" alt="Fox"></a>
+                        <a href="img/otter.jpeg" target="_blank"><img src="img/otter.jpeg" class="img-responsive" alt="Otter"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="img/snail.jpeg" target="_blank"><img src="img/snail.jpeg" class="img-responsive" alt="Snail"></a>
+                        <a href="img/taranchula.jpeg" target="_blank"><img src="img/taranchula.jpeg" class="img-responsive" alt="Taranchula"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="pictures">
-            
-        </div>
-  
-
-        <div id="footer">
-            <p>&copy; 2014 Olin Huffman</p>
+        <div class="container">
+            <div id="footer">
+                <br>
+                <p>&copy; 2014 Olin Huffman</p>
+            </div>
         </div>
     </body>
 </html>
