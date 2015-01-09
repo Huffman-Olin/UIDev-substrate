@@ -7,8 +7,9 @@ the help of tutorials on W3Schools-->
         <title>Picture Gallery | Olin Huffman</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Latest compiled and minified CSS -->
+        <!-- Latest compiled and minified CSS from bootstrap -->
         <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
         <link rel="stylesheet" type="text/css" href="CSS/picGallery.css">
         <!-- Link to Google font-->
         <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
@@ -18,8 +19,14 @@ the help of tutorials on W3Schools-->
     </head>
     <body>
         <div class="container">
-            <div id="header">
-                <h1>Picture Gallery</h1>
+            <!--Looked up how to insert an anchor tag-->
+            <a name="top"></a>
+            <!--Read in an ebook on bootstrap about adding the page-header class to the header.
+            This added the thin white line between the header and images-->
+            <div class="page-header">
+                <div id="header">
+                    <h1>Picture Gallery</h1>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -41,27 +48,28 @@ the help of tutorials on W3Schools-->
                     </div>
                     <div class="col-sm-3">
                         <a href="img/fox.jpeg" target="_blank"><img src="img/fox.jpeg" class="img-responsive" alt="Fox"></a>
-                       
+
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
-                        
+
                     </div>
                     <div class="col-sm-4">
                         <a href="img/otter.jpeg" target="_blank"><img src="img/otter.jpeg" class="img-responsive" alt="Otter"></a> 
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    
+
                 </div>
             </div>
         </div>
         <div class="container">
             <div id="footer">
                 <br>
+                <p><a href="#top">Top of Page</a></p>
                 <p>&copy; 2014 Olin Huffman</p>
             </div>
-        </div>
+        </div>  
     </body>
 </html>
